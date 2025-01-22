@@ -1,0 +1,27 @@
+@import url(./fonts.css);
+@import url(./reset.css);
+
+#root {
+  --main-text: #121417;
+  --secondary-text: #8a8a89;
+  --background: #fff;
+  --secondary-background: #f8f8f8;
+  --accent-background: #f4c8ba;
+  --accent-hover: #f0aa8d;
+  --error: #ef5050;
+}
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: var(--background);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 500;
+  color: var(--main-text);
+}

@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
-import css from "./Navbar.module.css";
-const Navbar = () => {
+import css from "./Navigation.module.css";
+import Logo from "../Logo/Logo";
+const Navigation = () => {
   const activeLink =
     "navList__link navList__link--active";
   const normalLink = "navList__link";
@@ -8,20 +9,13 @@ const Navbar = () => {
     <nav className={css.nav}>
       <div className={css.container}>
         <div className={css.navRow}>
-          <NavLink
-            to="/"
-            className={css.logo}
-          >
-            <strong>
-              LearningLingo
-            </strong>
-          </NavLink>
           <ul className={css.navList}>
             <li
               className={
                 css.navListItem
               }
             >
+              <Logo />
               <NavLink
                 to="/"
                 className={({
@@ -54,4 +48,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navigation;

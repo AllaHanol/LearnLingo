@@ -5,13 +5,14 @@ import {
 import HomePage from "./pages/HomePage.jsx";
 import TeachersPage from "./pages/TeachersPage.jsx";
 import FavoritesPage from "./pages/FavoritesPage.jsx";
-import Navbar from "./components/Navbar/Navbar.jsx";
-import "./App.css";
+import Navigation from "./components/Navbar/Navigation.jsx";
+
+import "./styles/common.css";
 
 function App() {
   return (
     <>
-      <Navbar />
+      <Navigation />
       <Routes>
         <Route
           path="/"
