@@ -95,8 +95,6 @@ const RegisterForm = () => {
             token: user.accessToken,
           }),
         );
-        dispatch(closeModal());
-        reset();
       })
       .catch((error) => {
         console.error(
@@ -104,6 +102,8 @@ const RegisterForm = () => {
           error,
         );
       });
+    dispatch(closeModal());
+    reset();
   };
 
   return (

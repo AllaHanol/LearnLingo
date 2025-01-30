@@ -1,0 +1,32 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 64px;
+}
+
+.boxBtn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  border-radius: 12px;
+  padding: 16px;
+  width: 183px;
+  height: 60px;
+  background-color: var(
+    --accent-background
+  );
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 155%;
+  color: var(--main-text);
+  border: none;
+  transition: all 250ms linear;
+}
+
+.btn:hover,
+btn:focus {
+  background-color: var(--accent-hover);
+}

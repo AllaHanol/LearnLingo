@@ -10,16 +10,15 @@ import { getAuth } from "firebase/auth";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey:
-    "AIzaSyBc1IXpq072G0awYNl_eziunrdwzIwUL_g",
+    "AIzaSyAip9mg03Q8dlKdTzasWJ8akIQWwxD4NuU",
   authDomain:
-    "learnlingo-hanol.firebaseapp.com",
-  projectId: "learnlingo-hanol",
+    "teachers-5219b.firebaseapp.com",
+  projectId: "teachers-5219b",
   storageBucket:
-    "learnlingo-hanol.firebasestorage.app",
-  messagingSenderId: "71041737108",
+    "teachers-5219b.firebasestorage.app",
+  messagingSenderId: "273644048704",
   appId:
-    "1:71041737108:web:b6925d878304bc4d40af81",
-  measurementId: "G-BX4HVD9K9F",
+    "1:273644048704:web:660821341686e0ce762aa5",
 };
 
 // Initialize Firebase
